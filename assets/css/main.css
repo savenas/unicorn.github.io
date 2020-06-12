@@ -2919,7 +2919,7 @@ input, select, textarea {
 
 header {
   position: relative;
-  background-color: black;
+  background-color: white;
   height: 100vh;
   min-height: 25rem;
   width: 100%;
@@ -2952,14 +2952,14 @@ header .overlay {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: black;
+  background-color: white;
   opacity: 0;
   z-index: 1;
 }
 
 @media (pointer: coarse) and (hover: none) {
   header {
-    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') black no-repeat center center scroll;
+    background: url('https://source.unsplash.com/XT5OInaElMw/1600x900') white no-repeat center center scroll;
   }
   header video {
     display: none;
